@@ -1,8 +1,8 @@
-name: vpc deployment in aws   #name of cicd
+name: VPC deployment in AWS 
 on:
   push:
     branches:
-      main:
+      main
 jobs:
   terraform-deploy:
     runs-on: ubuntu-latest
